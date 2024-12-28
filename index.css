@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #030728;
+    background: url("bg.png") #030728 no-repeat center;
+}
+
+#root {
+    width: 100%;
+}
+
+.currency_converter {
+    margin: auto;
+    background: rgba(2, 7, 40, 0.50);
+    padding: 40px 30px 50px;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    max-width: 410px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.currency_converter .converter_title {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.currency_converter .converter_form {
+    margin-top: 45px;
+}
+
+.converter_form .form_group {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.converter_form .form_group .form_label {
+    color: white;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.converter_form .form_group .form_input {
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0;
+    color: white;
+    font-weight: 500;
+    min-height: 48px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.form_group_section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 30px; 
+    gap: 58px;
+}
+
+
+.form_section {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.form_section:first-child {
+    margin-left: 0; 
+}
+
+.form_section:last-child {
+    margin-right: 0;
+}
+
+
+.form_label {
+    color: white; 
+}
+
+
+.select_menu {
+    display: flex;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 10px 0 5px;
+    color: white; 
+    font-weight: 500;
+    min-height: 45px;
+    align-items: center; 
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.form_group_section .swap_icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%; 
+    background: rgba(255, 255, 255, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); 
+}
+
+
+.converter_form .submit_button {
+    width: 100%;
+    min-height: 52px;
+    border-radius: 6px;
+    border: none; 
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.conversion_result {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+}
