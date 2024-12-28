@@ -13,12 +13,6 @@
 
 ---
 
-## 🖥️ Demo
-
-![Convertly Screenshot](screenshot.png)
-
----
-
 ##  Technologies Used
 
 - **Frontend:** React
